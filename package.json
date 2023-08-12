@@ -2,7 +2,7 @@
   "name": "portifolio_1.2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://betoblid.github.io/portifolio_dev_herbert",
+  "homepage": "https://betoblid.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
