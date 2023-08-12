@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portifolio_dev_herbert/static/css/main.0a89f1c8.css",
+    "main.js": "/portifolio_dev_herbert/static/js/main.eb7bd162.js",
+    "static/media/matrix-356024_1280.jpg": "/portifolio_dev_herbert/static/media/matrix-356024_1280.8cbd4f18df84541649f2.jpg",
+    "static/media/react.png": "/portifolio_dev_herbert/static/media/react.86ff89ddc8e05f1c517c.png",
+    "static/media/Sass-Logo-320x200.png": "/portifolio_dev_herbert/static/media/Sass-Logo-320x200.b0f0055bf8e0943a5782.png",
+    "static/media/css.png": "/portifolio_dev_herbert/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/portifolio_dev_herbert/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portifolio_dev_herbert/index.html",
+    "static/media/icon-close.svg": "/portifolio_dev_herbert/static/media/icon-close.c6580312401807bc9f98867a80e2bc37.svg",
+    "static/media/icon-hamburger.svg": "/portifolio_dev_herbert/static/media/icon-hamburger.68867946847c3249542e85c3745a1e06.svg",
+    "main.0a89f1c8.css.map": "/portifolio_dev_herbert/static/css/main.0a89f1c8.css.map",
+    "main.eb7bd162.js.map": "/portifolio_dev_herbert/static/js/main.eb7bd162.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a89f1c8.css",
+    "static/js/main.eb7bd162.js"
+  ]
+}
