@@ -1,0 +1,13 @@
+.conteudo{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sub{
+    font: 700 26px 'Poppins';
+    margin: 20px auto;
+}

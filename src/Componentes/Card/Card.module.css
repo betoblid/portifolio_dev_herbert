@@ -1,0 +1,45 @@
+
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 7px #191919;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+.card div img{
+    width: 100%;
+}
+.conteudo h2{
+    text-align: center;
+    font: 700 22px 'Poppins';
+    margin: 10px auto;
+}
+.conteudo p{
+    font: normal 15px 'Poppins';
+    padding: 0 10px;
+}
+.tec h4{
+    margin: 10px 0;
+}
+.tec h4 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.link{
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+}
+.link a{
+    
+    background: rebeccapurple;
+    color: white;
+    font: 700 16px 'Poppins';
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 7px 30px;
+}

@@ -1,0 +1,120 @@
+.sessao {
+    width: 100%;
+}
+
+.container {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_conteudo {
+    width: 480px;
+    padding-top: 50px;
+
+}
+
+.card_conteudo h1 {
+    font: 700 60px 'Poppins';
+}
+/*seta em cima do Footer */
+.seta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+.seta img{
+    width: 100px;
+    /*adicionando o efeito de flutuante na seta*/
+    animation: flutuando 2s linear infinite;
+}
+/*efeito de seta flutuando*/
+@keyframes flutuando{
+    to{
+        transform: translate(30px);
+    }
+    from{
+        transform: translate(0px);
+    }
+}
+/* Degrader no subtitulo 
+
+linear-gradient(rebeccapurple, steelblue, turquoise)
+*/
+.card_conteudo h2 {
+    background-image: radial-gradient(rgb(131, 7, 255), rgb(3, 3, 3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+    font: 700 32px 'Poppins';
+}
+
+.card_conteudo p{
+    font: normal 17px 'Poppins';
+}
+
+.card_conteudo div {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_conteudo div a {
+    padding: 7px 20px;
+    background-color: #4B1CAD;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font: 800 20px 'Poppins';
+}
+
+.perfil img {
+    border-radius: 100%;
+    border: 3px solid rebeccapurple;
+    width: 300px;
+
+}
+
+.projetos{
+    text-align: center;
+}
+
+.projetos h2{
+    font: 700 30px 'Poppins';
+    margin: 10px auto;
+}
+.projetos p{
+    font: normal 16px 'Poppins';
+    margin-bottom: 20px;
+}
+
+@media(max-width: 815px){
+    .sessao{
+        padding-top: 50px;
+        min-height: 90vh;
+    }
+    .card_conteudo{
+        width: 85%;
+    }
+    .card_conteudo h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .card_conteudo h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .card_conteudo p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .card_conteudo div a{
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+}

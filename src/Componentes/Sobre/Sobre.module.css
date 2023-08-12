@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.card{
+    width: 50%;
+}
+.card h2{
+    font: 700 30px 'Poppins';
+    margin: 15px auto;
+    text-align: center;
+}
+.card p{
+    line-height: 32px;
+}
+.card_img img{
+    width: 400px;
+}
+@media(max-width: 900px){
+
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 15% 0;
+    }
+    .card{
+        width: 86%;
+    }
+    .card p{
+        margin-top: 20px;
+    }
+    .card_img{
+        width: 86%;
+        margin: 0 auto;
+    }
+    .card_img img{
+        width: 100%;
+    }
+}

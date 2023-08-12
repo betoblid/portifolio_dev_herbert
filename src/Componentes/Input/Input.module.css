@@ -1,0 +1,18 @@
+.input{
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+.input input{
+    font-size: 18px;
+    padding: 10px;
+    width: 280px;
+}
+.input h1{
+    font: 700 30px 'Poppins';
+    margin-block: 10px;
+}
+.input p{
+    font: normal 16px 'Poppins';
+    margin-top: 10px;
+}

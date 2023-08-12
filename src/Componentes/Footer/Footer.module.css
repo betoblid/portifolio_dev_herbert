@@ -1,0 +1,33 @@
+.container{
+    text-align: center;
+    background: #191919;
+    color: white;
+    padding-block: 20px;
+
+    animation: efeitotop 4s infinite;
+
+}
+.container h2{
+    font: normal 12px 'Poppins';
+}
+@keyframes efeitotop{
+    0%{
+        border-top: 10px solid #be3dfa;
+    }
+    25%{
+        border-top: 10px solid #8106b9;
+    }
+    50%{
+        border-top: 10px solid #5316fa;
+    }
+    70%{
+        border-top: 10px solid #3324b9;
+    }
+    90%{
+        border-top: 10px solid #e70450;
+    }
+    100%{
+        border-top: 10px solid #960334;
+    }
+  }
+

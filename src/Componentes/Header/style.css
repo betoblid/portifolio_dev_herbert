@@ -1,0 +1,122 @@
+.container{
+    /*fixed o topo e o z index e a prioridade em cima dos elementos*/
+
+    background: #191919;
+    width: 100%;
+    height: 74px;
+
+    /*cor na barte bottom do container feito bor bordas*/
+
+    animation: efeitotop 4s infinite;
+}
+
+.container div h1{
+    color: rgb(255, 255, 255);
+    font: 800 48px 'Poppins';
+}
+
+
+
+@media(max-width: 900px){
+ 
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card_nav{
+        position: absolute;
+        top: 75px;
+
+        width: 86%;
+        background: black;
+
+    }
+
+    .card_nav nav a{
+        display: block;
+        text-align: center;
+        padding-block: 10px;
+
+        text-decoration: none;
+        color: white;
+        font: normal 18px 'Poppins';
+    }
+    .card_nav nav a:hover{
+        color: black;
+        background: white;
+    }
+    
+    /*estilo do botão nav menu*/
+    .btn_nave button{
+        background: none;
+        border: none;
+    }
+    .btn_nave button:active{
+        cursor: pointer;
+        animation: rotait .2s linear;
+    }
+    .btn_nave:active{
+        transform: scale(1.22);
+    }
+
+    .hidden{
+        display: none;
+    }
+ 
+
+}
+
+@media(min-width: 901px){
+
+    .btn_nave{
+        display: none;
+    }
+    .container nav a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+        font: 700 18px 'Poppins';
+        transition: .7s all;
+    }
+    .container nav a:hover{
+        color: gray;
+        transition: .7s all;
+    }
+
+    .container{
+        /*usando o flexbox para que os elementos fiquem no centro do eixo x e around no eixo Y*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@keyframes rotait {
+    to{
+        transform: rotate(0);
+    }
+    from{
+        transform: rotate(180deg);
+    }
+}
+@keyframes efeitotop{
+    0%{
+        border-bottom: 10px solid #be3dfa;
+    }
+    25%{
+        border-bottom: 10px solid #8106b9;
+    }
+    50%{
+        border-bottom: 10px solid #5316fa;
+    }
+    70%{
+        border-bottom: 10px solid #3324b9;
+    }
+    90%{
+        border-bottom: 10px solid #e70450;
+    }
+    100%{
+        border-bottom: 10px solid #960334;
+    }
+  }
+
