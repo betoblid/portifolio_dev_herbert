@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 100vh;
+}
+.container div h2{
+    color: red;
+    font-size: 24px;
+}
+.container a{
+    font-size: 20px;
+    font-weight: 600;
+}

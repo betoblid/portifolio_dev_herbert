@@ -23,8 +23,8 @@ function Card({ img, nome, descricao, tec1, tec2, tec3, tec4, tec5, tec6, link }
                     </h4>
                 </div>
                 <div className={style.link}>
-                    <a href={`https://github.com/betoblid/${link}`}>GitHub</a>
-                    <a href={`https://betoblid.github.io/${link}/`}>Ver</a>
+                    <a href={`https://github.com/betoblid/${link}`} target="_blank">GitHub</a>
+                    <a href={`https://betoblid.github.io/${link}/`} target="_blank">Ver</a>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ import Load from "../../Componentes/Load";
 //function que irar filtrar todo o json e achar toda palavra que for indentificada no nome do projeto ou tecnologia
 
 function filtros(dados, pesquisa){
-    return dados.filter(dado => dado.cate.includes(pesquisa) || dado.tec.includes(pesquisa))
+    return dados.filter(dado => dado.cate.toLocaleLowerCase().includes(pesquisa.toLocaleLowerCase()) || dado.tec.toLocaleLowerCase().includes(pesquisa.toLocaleLowerCase()))
 }
 export default function Input({dados}){
 
@@ -33,7 +33,7 @@ export default function Input({dados}){
                 maxLength={20}
                 placeholder="Pesquisar..."
                 value={pesquisa}
-                onChange={e => setPesquisa(e.target.value.toLocaleLowerCase())}
+                onChange={e => setPesquisa(e.target.value)}
             />
 
             <p>Pesquise por nome de Projeto ou Tecnologia utilizada no Projeto...</p>

@@ -43,7 +43,7 @@ export default function Home(){
                         sou freelancer e aceito proposta.</p>
 
                         <div>
-                            <a href="https://www.linkedin.com/in/herbert-souza-220268268/" target="_blank">Linkedin</a>
+                            <a href="https://www.linkedin.com/in/HerbertlSouza/" target="_blank">Linkedin</a>
                             <a href="https://github.com/betoblid" target="_blank">GitHub</a>
                         </div>
                         <Tecnologia />

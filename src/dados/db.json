@@ -12,7 +12,7 @@
         "tec5": "https://a.imagem.app/bR5upi.png",
         "tec6": "https://a.imagem.app/bR5Ie8.png",
         "tec": "html css javascript sass git figma",
-        "data": "07/2023"
+        "data": "7/2023"
     },
 
     {
@@ -28,7 +28,7 @@
         "tec5": "https://a.imagem.app/bR5upi.png",
         "tec6": "https://a.imagem.app/bR5Ie8.png",
         "tec": "html css javascript sass git figma",
-        "data": "07/2023"
+        "data": "7/2023"
     },
     {
         "id": "landing_page_Blogr",
@@ -43,13 +43,13 @@
         "tec5": "https://a.imagem.app/bR5upi.png",
         "tec6": "https://a.imagem.app/bR5Ie8.png",
         "tec": "html css javascript sass git figma",
-        "data": "06/2023"
+        "data": "6/2023"
     },
     {
         "id": "gerador_de_conselhos",
         "foto": "https://a.imagem.app/bR5TWy.jpeg",
         "nome": "Gerador de Conselhos",
-        "cate": "gerador de conselhos",
+        "cate": "Dashbord",
         "description": "Aplicação que recebe response de uma API gerando conselhor motivasional toda vez que click no botão",
         "tec1": "https://a.imagem.app/bR5LX3.png",
         "tec2": "https://a.imagem.app/bR5tQZ.png",
@@ -58,7 +58,7 @@
         "tec5": "https://a.imagem.app/bR5gMY.png",
         "tec6": "https://a.imagem.app/bR5VX9.png",
         "tec": "html css javascript github git bootstrap",
-        "data": "07/2023"
+        "data": "7/2023"
     },
     {
         "id": "playlist_web_beta",
@@ -73,7 +73,7 @@
         "tec5": "https://a.imagem.app/bR5gMY.png",
         "tec6": "https://a.imagem.app/bR5VX9.png",
         "tec": "html css javascript github git bootstrap",
-        "data": "06/2023"
+        "data": "6/2023"
     },
     {
         "id": "cafeteria-Manhattan",
@@ -88,7 +88,7 @@
         "tec5": "https://a.imagem.app/bR5gMY.png",
         "tec6": "https://a.imagem.app/bR5VX9.png",
         "tec": "html css javascript github git bootstrap",
-        "data": "06/2023"
+        "data": "6/2023"
     },
     {
         "id": "hospital_Life",
@@ -103,7 +103,7 @@
         "tec5": "https://a.imagem.app/bR5gMY.png",
         "tec6": "https://a.imagem.app/bR5VX9.png",
         "tec": "html css javascript github git bootstrap",
-        "data": "06/2023"
+        "data": "6/2023"
     },
     {
         "id": "conversor_moedas",
@@ -118,7 +118,7 @@
         "tec5": "https://a.imagem.app/bR5dzN.png",
         "tec6": "https://a.imagem.app/bR5gMY.png",
         "tec": "html css javascript github git sass",
-        "data": "07/2023"
+        "data": "7/2023"
     },
     {
         "id": "Desafios_mentor_frontend",
@@ -133,7 +133,7 @@
         "tec5": "https://a.imagem.app/bR5dzN.png",
         "tec6": "https://a.imagem.app/bR5gMY.png",
         "tec": "html css javascript github git sass",
-        "data": "08/2023"
+        "data": "8/2023"
     },
     {
         "id": "relogio_smart",
@@ -148,6 +148,51 @@
         "tec5": "https://a.imagem.app/bR5dzN.png",
         "tec6": "https://a.imagem.app/bR5gMY.png",
         "tec": "html css javascript github git sass",
-        "data": "07/2023"
+        "data": "7/2023"
+    },
+    {
+        "id": "Rastreador_IP",
+        "foto": "https://a.imagem.app/bpzpJ2.jpeg",
+        "nome": "Rastreiador de IP",
+        "cate": "Rastreiador",
+        "description": "Software de rastreio de IP com Consumo de 2 APIS usando React Css em modulo e JS",
+        "tec1": "https://a.imagem.app/bR5LX3.png",
+        "tec2": "https://a.imagem.app/bR5tQZ.png",
+        "tec3": "https://a.imagem.app/bR5upi.png",
+        "tec4": "https://a.imagem.app/bR5QCE.png",
+        "tec5": "https://a.imagem.app/bp2oiS.jpeg",
+        "tec6": "https://a.imagem.app/bR5gMY.png",
+        "tec": "html css javascript github git react",
+        "data": "9/2023"
+    },
+    {
+        "id": "Chat_dev",
+        "foto": "https://a.imagem.app/bp2H03.jpeg",
+        "nome": "Comunidade Dev",
+        "cate": "Comunidade",
+        "description": "Criado uma api para o uso do Chat, login e autenticação projeto em React, futuro upload conectar em Banco de Dados",
+        "tec1": "https://a.imagem.app/bR5LX3.png",
+        "tec2": "https://a.imagem.app/bR5tQZ.png",
+        "tec3": "https://a.imagem.app/bR5upi.png",
+        "tec4": "https://a.imagem.app/bR5QCE.png",
+        "tec5": "https://a.imagem.app/bp2oiS.jpeg",
+        "tec6": "https://a.imagem.app/bR5gMY.png",
+        "tec": "html css javascript github git react",
+        "data": "9/2023"
+    },
+    {
+        "id": "devfinder",
+        "foto": "https://a.imagem.app/bp2hUi.jpeg",
+        "nome": "Dev Finder",
+        "cate": "Dashbord",
+        "description": "Consumo de api do github função async uso de typescript e react designer responsivo e de facil uso",
+        "tec1": "https://a.imagem.app/bR5LX3.png",
+        "tec2": "https://a.imagem.app/bR5tQZ.png",
+        "tec3": "https://a.imagem.app/bR5upi.png",
+        "tec4": "https://a.imagem.app/bR5QCE.png",
+        "tec5": "https://a.imagem.app/bp2oiS.jpeg",
+        "tec6": "https://a.imagem.app/bp2zk8.png",
+        "tec": "html css javascript typescript git react",
+        "data": "9/2023"
     }
 ]

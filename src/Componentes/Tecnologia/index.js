@@ -15,6 +15,7 @@ export default function Tecnologia(){
                 <img src={Html} alt="Habilidades nessas Tecnlogia"/>
                 <img src={Css} alt="Habilidades nessas Tecnlogia"/>
                 <img src={Js} alt="Habilidades nessas Tecnlogia"/>
+                <img src="https://a.imagem.app/bp2zk8.png" alt="Habilidades nessas Tecnlogia"/>
                 <img src={React} alt="Habilidades nessas Tecnlogia"/>
                 <img src={Boostrap} alt="Habilidades nessas Tecnlogia"/>
                 <img src={Sass} alt="Habilidades nessas Tecnlogia"/>
